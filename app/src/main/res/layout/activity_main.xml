@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/myMovies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My movies" />
+    <Button
+        android:id="@+id/addMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add movie" />
+    <Button
+        android:id="@+id/editMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit movie" />
+    <Button
+        android:id="@+id/deleteMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete movie" />
+    <Button
+        android:id="@+id/searchMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search movie" />
+    <TextView
+        android:id="@+id/recentMovie"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Recent Movie from this year" />
+    <TextView
+        android:id="@+id/recentMovieTitle"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    <TextView
+        android:id="@+id/recentMovieType"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+    <TextView
+        android:id="@+id/recentMovieGenre"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+    <TextView
+        android:id="@+id/recentMovieReleased"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+    <TextView
+        android:id="@+id/recentMovieDirector"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+    <TextView
+        android:id="@+id/recentMovieCountry"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+    <TextView
+        android:id="@+id/recentMovieRating"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+    <TextView
+        android:id="@+id/recentMoviePlot"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+</LinearLayout>
